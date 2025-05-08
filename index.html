@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mwanda Solutions - Professional Services</title>
+    <meta name="description" content="mwanda Solutions provides professional business services including data analytics, digital marketing, and web development.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">mwanda Solutions</div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Professional Solutions for Your Business</h1>
+            <p>We provide cutting-edge services to help your company thrive in today's competitive market.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Data Analytics</h3>
+                    <p>Transform your raw data into actionable insights with our advanced analytics solutions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Digital Marketing</h3>
+                    <p>Reach more customers and grow your brand with our targeted marketing strategies.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Create stunning, responsive websites that convert visitors into loyal customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/image.png" alt="About Our Company">
+                </div>
+                <div class="about-text">
+                    <h2>About mwanda Solutions</h2>
+                    <p>Founded in 2010, mwanda Solutions has been at the forefront of providing innovative business solutions to companies of all sizes. Our team of experts combines technical expertise with industry knowledge to deliver results that matter.</p>
+                    <p>We believe in building strong relationships with our clients based on trust, transparency, and mutual success. Our client-centered approach ensures that we truly understand your needs before proposing solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"mwanda Solutions transformed our business operations with their data analytics services. We've seen a 40% increase in efficiency since implementing their recommendations."</p>
+                    <p class="testimonial-author">- Sarah Johnson, CEO at TechStart</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The web development team at mwanda created an incredible website for us that perfectly captures our brand identity. Our online sales have doubled since the launch!"</p>
+                    <p class="testimonial-author">- Michael Rodriguez, Marketing Director</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>mwanda Solutions</h3>
+                    <p>Providing professional business solutions since 2010. Our mission is to help businesses grow through innovative strategies and technologies.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li>123 Business Road</li>
+                        <li>Nairobi City, BZ 10001</li>
+                        <li>contact@mwandasolutions.com</li>
+                        <li>+254790680702</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> mwanda Solutions. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
